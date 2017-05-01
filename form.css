@@ -1,0 +1,47 @@
+.submit_button {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    background: #4861ac;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.comment_button{
+    font-family: Arial;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    background: rgb(72, 97, 172);
+    width: 130px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.dialog_button{
+    font-family: Arial;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    background: rgb(72, 97, 172);
+    width: 130px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    z-index: 3;
+    margin-top: 10px;
+}
+
+.submit_button:hover, .comment_button:hover, .dialog_button:hover{
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+.input-text{
+    height: 21px;
+    border: none;
+    border-bottom: 1px solid #4861ac;
+    font-size: 14px;
+}
+
